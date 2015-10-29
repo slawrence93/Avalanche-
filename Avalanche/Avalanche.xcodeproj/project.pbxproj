@@ -15,6 +15,8 @@
 		142E03DB1BE18C4600549C09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142E03DA1BE18C4600549C09 /* Images.xcassets */; };
 		142E03DE1BE18C4600549C09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 142E03DC1BE18C4600549C09 /* LaunchScreen.xib */; };
 		142E03EA1BE18C4600549C09 /* AvalancheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142E03E91BE18C4600549C09 /* AvalancheTests.swift */; };
+		142E03F41BE1A24100549C09 /* blackbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 142E03F31BE1A24100549C09 /* blackbox.png */; };
+		142E03F61BE1A25000549C09 /* blacktriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 142E03F51BE1A25000549C09 /* blacktriangle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		142E03E31BE18C4600549C09 /* AvalancheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvalancheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		142E03E81BE18C4600549C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		142E03E91BE18C4600549C09 /* AvalancheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvalancheTests.swift; sourceTree = "<group>"; };
+		142E03F31BE1A24100549C09 /* blackbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackbox.png; path = ../../../../Desktop/blackbox.png; sourceTree = "<group>"; };
+		142E03F51BE1A25000549C09 /* blacktriangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blacktriangle.png; path = ../../../../Desktop/blacktriangle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		142E03CD1BE18C4600549C09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				142E03F51BE1A25000549C09 /* blacktriangle.png */,
+				142E03F31BE1A24100549C09 /* blackbox.png */,
 				142E03CE1BE18C4600549C09 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -199,8 +205,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				142E03DE1BE18C4600549C09 /* LaunchScreen.xib in Resources */,
+				142E03F61BE1A25000549C09 /* blacktriangle.png in Resources */,
 				142E03DB1BE18C4600549C09 /* Images.xcassets in Resources */,
 				142E03D21BE18C4600549C09 /* GameScene.sks in Resources */,
+				142E03F41BE1A24100549C09 /* blackbox.png in Resources */,
 				142E03D91BE18C4600549C09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
