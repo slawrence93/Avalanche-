@@ -15,6 +15,10 @@ class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
         /*Setup your scene here*/
         
+        player.xScale = 0.5
+        
+        player.yScale = 0.5
+        
         //sets up position of player in the middle of screen a little above bottom
         player.position = CGPointMake(self.size.width / 2, self.size.height / 5)
         
@@ -27,6 +31,10 @@ class GameScene: SKScene {
     func spawnSpikes() {
         
         var spike = SKSpriteNode(imageNamed: "blacktriangle.png")
+        
+        spike.xScale = 0.5
+        
+        spike.yScale = 0.5
         
         var minValue = self.size.width / 8
         
