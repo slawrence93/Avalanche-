@@ -19,7 +19,7 @@ class GameScene: SKScene {
         player.position = CGPointMake(self.size.width / 2, self.size.height / 5)
         
         //generates spikes at random positions
-        var spikeTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("spawnSpikes"), userInfo: nil, repeats: true)
+        var spikeTimer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: Selector("spawnSpikes"), userInfo: nil, repeats: true)
         
         self.addChild(player)
     }
@@ -36,6 +36,9 @@ class GameScene: SKScene {
         var spawnPoint = UInt32(maxValue - minValue)
         
         spike.position = CGPoint(x: CGFloat(arc4random_uniform(spawnPoint)), y: self.size.height)
+        
+        let action = SKAction.moveToY(-70, duration: 2.0)
+        spike.runAction(SKAction.repeatActionForever(action))
         
         self.addChild(spike)
     }
