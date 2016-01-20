@@ -71,18 +71,18 @@ class GameScene: SKScene {
         
     }
     
-   /* override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         /* Called when a touch begins */
         
         for touch in (touches as! Set<UITouch>) {
             let location = touch.locationInNode(self)
-            Player.position.x = location.x
+            player.position.x = location.x
             
         }
-    }*/
+    }
     
     //allows us to drag player along x-axis
-    override func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent) {
+    /*func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent) {
         
         for touch in (touches as! Set<UITouch>) {
             
@@ -92,7 +92,7 @@ class GameScene: SKScene {
             
         }
         
-    }
+    }*/
    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */

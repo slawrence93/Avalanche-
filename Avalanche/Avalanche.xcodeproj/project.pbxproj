@@ -168,6 +168,7 @@
 		142E03C21BE18C4600549C09 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Sean Lawrence";
 				TargetAttributes = {
@@ -427,6 +428,7 @@
 				142E03EF1BE18C4600549C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		142E03F01BE18C4600549C09 /* Build configuration list for PBXNativeTarget "AvalancheTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +437,7 @@
 				142E03F21BE18C4600549C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
